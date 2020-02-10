@@ -1,3 +1,7 @@
 encryptionsalt: v1:PmdM77KWv6k=:v1:W6zUimK1EiFZifB9:3fKqNlG1G0h99PIxk5ZoRvaUIpXYKA==
 config:
   aws:region: eu-west-1
+  build-setup-example:github-token:
+    secure: v1:OXQHM0vLk4lAyzpS:7DwqTtJKn/douf5iESKLTpya6Ok2IszsEcVTySHift6JSfrgPVbIVYRqjES9BogJyw==
+  build-setup-example:pulumi-access-token:
+    secure: v1:N1QLiCGW+fi1zhmU:JubIJZH7ib8pFH7xZCkLYiwJD6q6SAbVQFMnICM6RjDtH1Ueiv59rw==
