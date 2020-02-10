@@ -18,7 +18,7 @@ const buildRole = new aws.iam.Role('build-setup-role', {
 
 new aws.iam.RolePolicyAttachment('build-setup-policy', {
   role: buildRole,
-  policyArn: `arn:aws:iam::${aws.getCallerIdentity().accountId}:policy/AdministratorAccess`,
+  policyArn: 'arn:aws:iam::aws:policy/AdministratorAccess',
 });
 
 const config = new pulumi.Config();
